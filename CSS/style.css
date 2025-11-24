@@ -1,0 +1,36 @@
+
+body{
+    margin:8px;
+    padding : 0;
+    background-color:blueviolet;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/436/150/non_2x/sunset-over-the-ocean-free-photo.jpeg);
+    background-repeat: no-repeat;
+    background-position:top ;
+
+}
+html,*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:large;
+    font-weight:100;
+    font-style:italic;
+    color:aqua;
+    text-align:center;
+    text-decoration:dotted;
+    text-transform:inherit ;
+    text-shadow: 1px 0px 1px #f04;
+    /*text-wrap:*/
+}
+#para{
+    color:chartreuse;
+    display:inline;
+}
+ul li{
+    float:right;
+    margin:30px;
+
+}
