@@ -6,12 +6,16 @@
           margin:0;
           padding:0;  
         }
+
         body{
             background-color:rgb(117, 52, 52);
+            height:100vh;
             display: flex;
             justify-content: center;
             align-items: center;
+            gap: 40px; /* Space between the two boxes */
         }
+
         #box{
             background-color: rgb(243, 216, 181);
             height:400px;
@@ -22,10 +26,8 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
-            margin:300px;
-            
-            
         }
+
         .boximg{
             width:120px;
             height:120px;
@@ -33,25 +35,42 @@
             margin-bottom: 15px;
             object-fit: cover;
         }
-        
     </style>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
+
+    <!-- ORIGINAL BOX -->
     <div id="box">
         <img class="boximg" src="https://wallpaperaccess.com/full/536225.jpg" alt="photo">
         <br>
         <hr color="grey" width="300px">
         <br>
-        <p font-family="ariel"><b>SHRISTI DUHOON</b></p>
+        <p><b>SHRISTI DUHOON</b></p>
         <br>
-        <p><b>Course:</b>BTech(CS in AI&ML)</p>
-        <p><b>Class:</b>AIML 3</p>
-        <p><b>Roll No.:</b>20125B15310105</p>
-        <p><b>Year:</b>1st year</p>
+        <p><b>Course:</b> BTech (CS in AI & ML)</p>
+        <p><b>Class:</b> AIML 3</p>
+        <p><b>Roll No.:</b> 20125B15310105</p>
+        <p><b>Year:</b> 1st year</p>
     </div>
-    
+
+    <!-- SECOND BOX (NEW BOX) -->
+    <div id="box">
+        <img class="boximg" src="https://wallpaperaccess.com/full/3949076.jpg" alt="photo">
+        <br>
+        <hr color="grey" width="300px">
+        <br>
+        <p><b>STUDENT INFO</b></p>
+        <br>
+        <p><b>Department:</b> Computer Science</p>
+        <p><b>Section:</b> 3</p>
+        <p><b>College:</b>ABES</p>
+        <p><b>Hobby:</b> Coding & Designing</p>
+    </div>
+
 </body>
 </html>
