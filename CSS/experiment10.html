@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+        }
+        .navbar{
+            width: 100%;
+            background: black;
+            color: white;
+            padding: 12px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo{
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .menu{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        li{
+            display: inline-block;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+        }
+
+        .right-box{
+            display: flex;
+            gap: 20px;
+        }
+
+        .right-box a{
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .card{
+            background:white;
+            padding:15px;
+            border-radius:10px;
+            box-shadow:0 3px 10px rgba(0,0,0,0.1);
+        }
+        .card img{
+            width:50%;
+            height:200px;
+            object-fit:cover;
+            border-radius:10px;
+        }
+        .price{
+            color:green;
+            font-weight:bold;
+            margin-bottom:10px;
+        }
+        .btn{
+            display:inline-block;
+            padding:10px 15px;
+            background:black;
+            color:white;
+            border-radius:5px;
+            text-decoration:none;
+        }
+        @media(max-width: 768px){
+            .menu{
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <div class="logo">Shopsee</div>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="right-box">
+            <a href="#">Cart &#10084&#65039</a>
+            <a href="#">Login</a>
+        </div>
+    </div>
+
+    <div style="padding: 20px;">
+        <h2>Welcome to Shopsee!</h2>
+        <p>Your one-stop destination for all shopping needs.</p>
+    </div>
+    <div class="card">
+            <img src=https://static.vecteezy.com/system/resources/previews/047/106/218/non_2x/3d-background-product-display-podium-scene-set-of-beige-blue-pink-and-white-realistic-3d-cylinder-pedestal-podium-in-pastel-colorful-abstract-rooms-free-photo.jpg alt="Product 1">
+            <h3>BLUSH</h3>
+            <p class="price">₹499</p>
+            <a href="#" class="btn">Add to Cart</a>
+        </div>
+    
+</body>
+</html>
+
+
+

@@ -1,0 +1,61 @@
+< html>
+<head>
+<title>RESPONSIVE NAVIGATION MENU</title>
+<style>
+*{
+margin: 0px;
+padding: 0px;
+}
+#navbar{
+width: 100%;
+background-color: black;
+color: white;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+#logo{
+font-size: 25px;
+font-weight: bolder;
+}
+.para{
+padding: 20px;
+background-color:pink
+}
+.menu{
+display: flex;
+gap: 30px;
+list-style: none;
+}
+li{
+display: inline-block;
+}  
+a{
+text-decoration: none;
+color: white;
+font-size: 15px;
+}
+@media(max-width: 480px){
+.menu{
+display: block; }
+}
+</style>
+</head>
+<body> 
+<div id="navbar">
+<div id="logo">Showstoper</div>
+<ul class="menu">
+<li><a href="#">Home</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">Category</a></li>
+<li><a href="#">Contact</a></li>
+<a href="#">Cart</a>
+<a href="#">Login</a>
+</div>
+<div class="para">
+<h2>Hello and welcome to showstopper</h2>
+<p>You will get new items every week .</p>
+</div>    
+</body>
+</html>
